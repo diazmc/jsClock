@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(https://images.unsplash.com/photo-1553194642-29b272a173b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80&blur=50) no-repeat center center fixed;
+    /* background: #018DED url(https://images.unsplash.com/photo-1553194642-29b272a173b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80&blur=50) no-repeat center center fixed; */
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -13,6 +13,15 @@ body {
     flex: 1;
     min-height: 100vh;
     align-items: center;
+}
+
+.background-video {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
 }
 
 .clock {
